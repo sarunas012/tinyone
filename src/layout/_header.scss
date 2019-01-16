@@ -1,0 +1,39 @@
+header{
+    background: $yellow;
+    padding-top: 40px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+        .menu-logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 57%;
+        }
+        img.menu{
+           width: 19px;
+           height: 19px;
+           margin-right: 15px;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            h2{
+                font-size: 30px;
+                font-weight: 500;
+                color: $mid-black;
+                margin-left: 10px;
+            } 
+       }
+       .social-networks{
+           display: flex;
+           align-items: center;
+           img{
+               margin-left: 15px;
+           }
+       }
+       
+    }
+}
